@@ -4,47 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+    *{
+        padding: 0px;
+        margin: 0px;
+    }
+    #navbar{
+        border: 1px solid black;
+        margin: 5px;
+        padding: 15px;
+        text-align: center;
+        background-color: rgb(191, 230, 253);
+    }
+    .links{
+        display: inline;
+    
+    }
+    #navbar .links a{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font: weight 100;
+        text-decoration: none;
+        padding: 5px;
+        margin: 5px;
+        border: 1px solid black;
+        opacity: .70;
+        transition: 0.4s;
+    }
+    #navbar #links a:hover{opacity: 1; transition: 0.4s;}
+    #yt{background-color: red; color: rgb(255, 255, 255);}
+    #fb{background-color: rgb(24, 115, 253); color: white;}
+    #dc{background-color: rgb(113, 130, 216); color: rgb(255, 255, 255);}
+    #rd{background-color: rgb(241, 101, 59); color: white;}
+    #twt{background-color: rgb(63, 203, 228); color: rgb(255, 255, 255);}
+    .rounded{border-radius: 5px;}
+    #links {display: inline}
+    
+
+</style>
 </head>
 <body>
-    <h1>h1</h1>
-    <h2>h2</h2>
-    <h3>h3</h3>
-    <h4>h4</h4>
-    <h5>h5</h5>
-    <h6>h6</h6>
-    <p>this is a sample paragraph</P>
-    <u>underline text</u>
-    <i>italized text</i>
-    <del>strikethroughed text</del>
-    <strong>Emphasized text</strong>
-    <b>Another emphasized text</b>
-    <hr>
-    <br> <!--this is a horizontal rule-->
-    <sub>this is a subscript</sub>
-    normal script
-    <sup>this is a superscript</sup>
-    <ol>
-        <li>animals <!--sub list-->
-            <ul>
-                <li>reptiles</li>
-                <li>amphibians</li>
-                <li>avians</li>
-                <li>mammals</li>
-            </ul>
-
-        </li>
-        <li>insects
-
-        </li>
-        <li>protozoans</li>
-    </ol>
-    <br> <!--linebreak-->
-    <img src="download.png" alt="pshs" width="150 px">
-    <!--img width/height can be independently used-->
-    <img src="slay.jpg" alt="a picture that doesnt load">
-    <br> <!--linebreak-->
-    <a href="page2.html">
-        A link to page 2
-    </a>
+    <div id="navbar" class="rounded">
+        <div class="links"><a href="https://youtube.com"id="yt">YouTube</a></div>
+        <div class="links"><a href="https://facebook.com"id="fb">Facebook</a></div>
+        <div class="links" ><a href="https://discord.com"id="dc">Discord</a></div>
+        <div class="links"><a href="https://reddit.com"id="rd">Reddit</a></div>
+        <div class="links"><a href="https://twitter.com"id="twt">Twitter</a></div>
+    </div>
 </body>
 </html>
